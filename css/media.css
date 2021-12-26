@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+	.slider__pagination {
+		gap: 3rem;
+	}
+
+	.slider__circle {
+		width: 4rem;
+		height: 4rem;
+	}
+
+	.section:not(:last-child) {
+		margin-bottom: 20rem;
+	}
+
+	.about {
+		grid-template: repeat(2, auto) / auto;
+		justify-items: center;
+	}
+
+	#about {
+		padding: 15rem 0;
+	}
+}
